@@ -1,0 +1,131 @@
+@font-face {
+    font-family: tyWebIcon;
+    src: url(/static/fonts/tyWebIcon.eot?oa71vh);
+    src: url(/static/fonts/tyWebIcon.eot?oa71vh#iefix) format('embedded-opentype'), url(/static/fonts/tyWebIcon.ttf?oa71vh) format('truetype'), url(/static/fonts/tyWebIcon.woff?oa71vh) format('woff'), url(/static/fonts/tyWebIcon.svg?oa71vh#tyWebIcon) format('svg');
+    font-weight: 400;
+    font-style: normal
+}
+
+[class*=" ty-icon"], [class^=ty-icon] {
+    font-family: tyWebIcon !important;
+    speak: none;
+    font-style: normal;
+    font-weight: 400;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale
+}
+
+.ty-icon-dream-b:before {
+    content: "\e91b"
+}
+
+.ty-icon-add-b:before {
+    content: "\e900"
+}
+
+.ty-icon-add:before {
+    content: "\e901"
+}
+
+.ty-icon-android:before {
+    content: "\e902"
+}
+
+.ty-icon-arrow-down:before {
+    content: "\e903"
+}
+
+.ty-icon-bell:before {
+    content: "\e904"
+}
+
+.ty-icon-camera-add:before {
+    content: "\e905"
+}
+
+.ty-icon-camera:before {
+    content: "\e906"
+}
+
+.ty-icon-check:before {
+    content: "\e907"
+}
+
+.ty-icon-close-b:before {
+    content: "\e908"
+}
+
+.ty-icon-close:before {
+    content: "\e909"
+}
+
+.ty-icon-comment:before {
+    content: "\e90a"
+}
+
+.ty-icon-dream-follow:before {
+    content: "\e90b"
+}
+
+.ty-icon-dream-following:before {
+    content: "\e90c"
+}
+
+.ty-icon-dream:before {
+    content: "\e90d"
+}
+
+.ty-icon-edit:before {
+    content: "\e90e"
+}
+
+.ty-icon-ios:before {
+    content: "\e90f"
+}
+
+.ty-icon-like:before {
+    content: "\e910"
+}
+
+.ty-icon-lock:before {
+    content: "\e911"
+}
+
+.ty-icon-more:before {
+    content: "\e912"
+}
+
+.ty-icon-search:before {
+    content: "\e913"
+}
+
+.ty-icon-share:before {
+    content: "\e914"
+}
+
+.ty-icon-time:before {
+    content: "\e915"
+}
+
+.ty-icon-trash:before {
+    content: "\e916"
+}
+
+.ty-icon-unlock:before {
+    content: "\e917"
+}
+
+.ty-icon-user-follow:before {
+    content: "\e918"
+}
+
+.ty-icon-user-following:before {
+    content: "\e919"
+}
+
+.ty-icon-user:before {
+    content: "\e91a"
+}

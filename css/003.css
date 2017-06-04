@@ -1,0 +1,1638 @@
+body, html {
+    height: 100%
+}
+
+body {
+    overflow-x: hidden
+}
+
+.ty-nav .ty-nav-btn-content > a:active, .ty-nav .ty-nav-btn-content > a:hover, .ty-nav .ty-nav-btn-content > a:link, .ty-nav .ty-nav-btn-content > a:visited {
+    background: 0 0;
+    border-bottom-color: transparent;
+    color: #fff
+}
+
+.ty-about-green {
+    color: #00B4FF;
+    font-size: 40px
+}
+
+.ty-about-mask::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, .4);
+    z-index: 20
+}
+
+.ty-about-section {
+    position: relative
+}
+
+.ty-about-section.index {
+    height: 100%;
+    position: relative;
+    color: #fff
+}
+
+.ty-about-section.index > * {
+    position: relative;
+    z-index: 100
+}
+
+.ty-about-header {
+    max-width: 1000px;
+    margin: 0 auto;
+    height: 60px;
+    padding-top: 20px;
+    position: relative
+}
+
+.ty-about-header h1 {
+    width: 134px;
+    height: 36px;
+    position: relative;
+    margin-left: 10px
+}
+
+.ty-about-header h1 a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: url(../images/logo_linght.png) 0/cover no-repeat;
+    text-indent: -9999px
+}
+
+.ty-about-header .ty-about-login {
+    display: block;
+    position: absolute;
+    float: right;
+    border: 1px solid #fff;
+    top: 25px;
+    right: 10px;
+    padding: 8px 15px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    font-size: 14px
+}
+
+.ty-about-header .ty-about-register {
+    right: 80px;
+    border: none
+}
+
+.ty-about-header .ty-about-register:hover {
+    text-decoration: underline
+}
+
+.ty-about-header .ty-about-login:active, .ty-about-header .ty-about-login:link, .ty-about-header .ty-about-login:visited {
+    color: #fff
+}
+
+.ty-about-section.index h2 {
+    font-size: 50px;
+    text-align: center;
+    max-width: 1000px;
+    margin: -240px auto 0;
+    font-weight: 700;
+    line-height: 80px;
+    top: 50%;
+    letter-spacing: 3px
+}
+
+.ty-about-section.index div.ty-about-body-desc {
+    width: 500px;
+    left: 50%;
+    margin-left: -250px;
+    position: absolute;
+    top: 50%;
+    text-align: center;
+    line-height: 28px;
+    margin-top: -30px
+}
+
+.ty-about-section.index div.ty-about-body-desc p {
+    font-size: 15px
+}
+
+.ty-about-body-desc ul {
+    position: relative;
+    margin: 10px 0 0 120px
+}
+
+.ty-about-body-desc ul li {
+    text-align: left;
+    font-size: 15px
+}
+/*-------------------------------------------------------------------*/
+.ty-about-section.team {
+    height: 640px;
+    background: #fff;
+    color: #333;
+    border-top: 1px solid #fff
+}
+
+.ty-about-section.team h2 {
+    margin: 60px auto;
+    text-align: center;
+    font-size: 40px;
+    font-weight: lighter
+}
+
+.ty-about-section.team .ty-about-team-desc {
+    max-width: 800px;
+    margin: 0 auto;
+    line-height: 1.6;
+    padding: 0 30px
+}
+
+.ty-about-team-desc p {
+    margin-top: 20px;
+    font-size: 14px
+}
+
+.ty-about-team-container {
+    max-width: 800px;
+    height: 240px;
+    margin: 50px auto;
+    position: relative;
+    padding: 0 30px
+}
+
+.ty-about-team-member {
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    border-radius: 100%;
+    background: #eee;
+    -webkit-transition: all .4s ease-in-out;
+    -moz-transition: all .4s ease-in-out;
+    -ms-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+    opacity: 0;
+    -webkit-animation: teamMemberShow .4s ease-in-out forwards;
+    -o-animation: teamMemberShow .4s ease-in-out forwards;
+    animation: teamMemberShow .4s ease-in-out forwards
+}
+
+.ty-about-share-content:after, .ty-about-share-content:before, .ty-about-team-member-info {
+    -webkit-transition: all .4s ease-in-out;
+    -moz-transition: all .4s ease-in-out;
+    -ms-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out
+}
+
+@-webkit-keyframes teamMemberShow {
+    from {
+        opacity: 0
+    }
+    to {
+        opacity: 1
+    }
+}
+
+@-o-keyframes teamMemberShow {
+    from {
+        opacity: 0
+    }
+    to {
+        opacity: 1
+    }
+}
+
+@-moz-keyframes teamMemberShow {
+    from {
+        opacity: 0
+    }
+    to {
+        opacity: 1
+    }
+}
+
+@keyframes teamMemberShow {
+    from {
+        opacity: 0
+    }
+    to {
+        opacity: 1
+    }
+}
+
+.ty-about-team-member-circle {
+    position: absolute;
+    width: 66px;
+    height: 66px;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    border-radius: 100%;
+    left: 7px;
+    top: 7px;
+    display: block;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 999
+}
+
+.ty-about-team-member-info {
+    position: absolute;
+    left: 0;
+    width: 0;
+    height: 80px;
+    padding-left: 80px;
+    background: #eee;
+    cursor: pointer;
+    -webkit-border-radius: 40px;
+    -moz-border-radius: 40px;
+    border-radius: 40px;
+    overflow: hidden;
+    transition: all .4s ease-in-out
+}
+
+.ty-about-team-member-info > h3 {
+    color: #555;
+    margin: 10px 0 5px;
+    font-weight: 400;
+    font-size: 16px;
+    padding-left: 5px;
+    width: 150px
+}
+
+.ty-about-team-member-info > h3 > small {
+    display: block;
+    color: #999;
+    font-size: 13px;
+    margin-top: 5px;
+    width: 150px
+}
+
+.ty-about-team-member-info p {
+    padding-left: 5px;
+    margin-top: 10px;
+    font-size: 14px;
+    width: 150px
+}
+
+.ty-about-team-member:hover {
+    background: #fff;
+    -webkit-transform: scale(1, 1);
+    -moz-transform: scale(1, 1);
+    -ms-transform: scale(1, 1);
+    -o-transform: scale(1, 1);
+    transform: scale(1, 1);
+    z-index: 9999
+}
+
+.ty-about-team-member:hover .ty-about-team-member-info {
+    width: 150px;
+    -webkit-box-shadow: 0 0 10px #ccc;
+    -moz-box-shadow: 0 0 10px #ccc;
+    box-shadow: 0 0 10px #ccc;
+    background: #fff
+}
+/*--------------------------------------------------------*/
+.ty-about-section.job {
+    height: 610px;
+    background: url(../images/img_about_bg2.jpg) 0/cover no-repeat;
+    color: #fff;
+    border-top: 1px solid #fff
+}
+
+.ty-about-section.contact > h2, .ty-about-section.download > h2, .ty-about-section.job > h2, .ty-about-section.report > h2 {
+    max-width: 800px;
+    font-size: 40px;
+    font-weight: lighter;
+    text-align: center;
+    margin: 0 auto 20px;
+    z-index: 999;
+    position: relative;
+    padding-top: 60px
+}
+
+.ty-about-section.job > p {
+    text-align: center;
+    font-size: 16px;
+    line-height: 1.5;
+    z-index: 999;
+    position: relative;
+    width: 150px;
+    margin: 0 auto
+}
+
+.ty-about-section.job > p > a:active, .ty-about-section.job > p > a:link, .ty-about-section.job > p > a:visited {
+    color: #fff
+}
+
+.ty-about-job-line {
+    width: 0;
+    height: 1px;
+    background: #fff;
+    background: rgba(255, 255, 255, .7);
+    position: absolute;
+    top: 27px;
+    left: 50%;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -ms-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out
+}
+
+.ty-about-section.job > p:hover .ty-about-job-line {
+    width: 150px;
+    margin-left: -75px
+}
+
+.ty-about-section.job > p > a > i {
+    position: relative;
+    top: 4px;
+    left: -2px;
+    font-size: 20px
+}
+
+.ty-about-job-container {
+    max-width: 1000px;
+    margin: 30px auto
+}
+
+.ty-about-job {
+    width: 30%;
+    height: 150px;
+    float: left;
+    margin: 1.6666%;
+    background: #fff;
+    background: rgba(255, 255, 255, .3);
+    z-index: 100
+}
+
+.ty-about-job-summary {
+    width: 100%;
+    height: 100%;
+    cursor: pointer
+}
+
+.ty-about-job-icon {
+    text-align: center;
+    padding: 20px 0 30px;
+    height: 60px;
+    line-height: 80px;
+    position: relative
+}
+
+.ty-about-job-icon-circle {
+    position: absolute;
+    left: 50%;
+    top: 20px;
+    height: 68px;
+    width: 68px;
+    margin-left: -34px;
+    -webkit-transition: transform .8s ease-in-out;
+    -moz-transition: transform .8s ease-in-out;
+    -ms-transition: transform .8s ease-in-out;
+    -o-transition: transform .8s ease-in-out;
+    transition: transform .8s ease-in-out
+}
+
+.ty-about-job-summary:hover .ty-about-job-icon-circle {
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg)
+}
+
+.ty-about-job-name {
+    text-align: center
+}
+
+.ty-about-job-detail {
+    position: absolute;
+    width: 0;
+    height: 0;
+    top: 50%;
+    left: 50%;
+    opacity: 0;
+    background: rgba(0, 0, 0, .6);
+    overflow: hidden;
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -ms-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out
+}
+
+.ty-about-job.ty-active .ty-about-job-detail {
+    opacity: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 99
+}
+
+.ty-about-job-close {
+    position: absolute;
+    right: 60px;
+    top: 60px;
+    display: block;
+    width: 25px;
+    height: 25px;
+    -webkit-transition: transform .4s ease-in-out;
+    -moz-transition: transform .4s ease-in-out;
+    -ms-transition: transform .4s ease-in-out;
+    -o-transition: transform .4s ease-in-out;
+    transition: transform .4s ease-in-out
+}
+
+.ty-about-job-close:hover {
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    transform: rotate(90deg)
+}
+
+.ty-about-job-close i {
+    font-size: 25px;
+    color: #fff
+}
+
+.ty-about-job-detail-container {
+    max-width: 670px;
+    margin: 220px auto 0
+}
+
+.ty-about-job-detail-container > h3 {
+    font-size: 20px;
+    letter-spacing: 1px
+}
+
+.ty-about-job-detail-container > p {
+    margin: 20px 0
+}
+
+.ty-about-job-responsibilities {
+    font-size: 15px;
+    color: #fff;
+    line-height: 1.6
+}
+
+.ty-about-job-responsibilities ol {
+    position: relative;
+    margin-left: 25px;
+    margin-bottom: 20px
+}
+
+.ty-about-share-container {
+    width: 600px;
+    margin: 0 auto
+}
+
+.ty-about-share-title {
+    height: 120px;
+    margin: 40px 0
+}
+
+.ty-about-share-title .ty-about-col-4 {
+    height: 100%;
+    text-align: center;
+    text-indent: -9999px;
+    background-position: center;
+    background-size: 60px 60px;
+    background-repeat: no-repeat;
+    -webkit-transition: background-image .5s ease-in-out;
+    -moz-transition: background-image .5s ease-in-out;
+    -ms-transition: background-image .5s ease-in-out;
+    -o-transition: background-image .5s ease-in-out;
+    transition: background-image .5s ease-in-out
+}
+
+.ty-about-share-weibo {
+    background-image: url(../images/ic_contact_weibo.png)
+}
+
+.ty-about-share-weibo.ty-active, .ty-about-share-weibo:hover {
+    background-image: url(../images/ic_contact_weibo_hover.png)
+}
+
+.ty-about-share-wechat {
+    background-image: url(../images/ic_contact_weixin.png)
+}
+
+.ty-about-share-wechat.ty-active, .ty-about-share-wechat:hover {
+    background-image: url(../images/ic_contact_weixin_ahover.png)
+}
+
+.ty-about-share-renren {
+    background-image: url(../images/ic_contact_renren.png)
+}
+
+.ty-about-share-renren.ty-active, .ty-about-share-renren:hover {
+    background-image: url(../images/ic_contact_renren_hover.png)
+}
+
+.ty-about-share-mail {
+    background-image: url(../images/ic_contact_mail.png)
+}
+
+.ty-about-share-mail.ty-active, .ty-about-share-mail:hover {
+    background-image: url(../images/ic_contact_mail_ahover.png)
+}
+
+.ty-about-col-4 {
+    float: left;
+    width: 25%;
+    position: relative
+}
+
+.ty-about-share-content {
+    position: relative;
+    width: 540px;
+    height: 200px;
+    margin: -10px auto 0;
+    -webkit-box-shadow: 0 0 10px #ccc;
+    -moz-box-shadow: 0 0 10px #ccc;
+    box-shadow: 0 0 10px #ccc;
+    background: #fff;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px
+}
+
+.ty-about-share-content:after, .ty-about-share-content:before {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 0;
+    border: 20px solid transparent;
+    border-bottom-color: #ddd;
+    top: -40px;
+    left: 50%;
+    margin-left: -20px;
+    transition: all .4s ease-in-out
+}
+
+.ty-about-share-content:after {
+    border-bottom-color: #fff;
+    margin-top: 1px
+}
+
+.ty-about-share-content-detail {
+    padding: 40px 20px;
+    color: #777;
+    z-index: -1;
+    opacity: 0;
+    -webkit-transition: all .4s ease-in-out;
+    -moz-transition: all .4s ease-in-out;
+    -ms-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+    position: absolute;
+    width: 500px
+}
+
+.ty-about-share-content-detail.ty-active {
+    opacity: 1;
+    z-index: 999
+}
+
+.ty-about-share-content-detail > p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 20px 30px;
+    position: relative
+}
+
+.ty-about-share-content-detail > p:first-letter {
+    font-size: 30px;
+    color: #444;
+    margin-right: 2px
+}
+
+.ty-about-share-content-detail > p:after, .ty-about-share-content-detail > p:before {
+    content: 'â€?';
+    position: absolute;
+    font-size: 50px;
+    color: #777;
+    margin-left: -25px;
+    margin-top: -20px
+}
+
+.ty-about-share-content-detail > p:after {
+    content: 'â€?';
+    margin-left: 0;
+    margin-top: -10px
+}
+
+.ty-about-section.report {
+    height: 500px;
+    border-bottom: 1px solid #eee
+}
+
+.ty-about-report-slider-container {
+    max-width: 1000px;
+    margin: 100px auto 20px;
+    padding: 0 30px;
+    height: 250px;
+    overflow: hidden;
+    position: relative
+}
+
+.ty-about-report-slider {
+    position: relative;
+    width: 5000px;
+    left: 50%;
+    margin-left: -185px
+}
+
+.ty-about-report-slider.ty-move-next, .ty-about-report-slider.ty-move-prev {
+    -webkit-transform: translate(-220px, 0);
+    -moz-transform: translate(-220px, 0);
+    -ms-transform: translate(-220px, 0);
+    -o-transform: translate(-220px, 0);
+    transform: translate(-220px, 0)
+}
+
+.ty-about-report-slide {
+    float: left;
+    border: 1px solid #ddd;
+    position: relative;
+    width: 218px;
+    height: 108px;
+    margin: 60px 10px 0;
+    overflow: hidden;
+    -webkit-transition: width .4s ease-in-out, height .4s ease-in-out, margin .4s ease-in-out, box-shadow .4s ease-in-out;
+    -moz-transition: width .4s ease-in-out, height .4s ease-in-out, margin .4s ease-in-out, box-shadow .4s ease-in-out;
+    -ms-transition: width .4s ease-in-out, height .4s ease-in-out, margin .4s ease-in-out, box-shadow .4s ease-in-out;
+    -o-transition: width .4s ease-in-out, height .4s ease-in-out, margin .4s ease-in-out, box-shadow .4s ease-in-out;
+    transition: width .4s ease-in-out, height .4s ease-in-out, margin .4s ease-in-out, box-shadow .4s ease-in-out
+}
+
+.ty-no-transition {
+    -webkit-transition: none !important;
+    -moz-transition: none !important;
+    -ms-transition: none !important;
+    -o-transition: none !important;
+    transition: none !important
+}
+
+.ty-about-report-slide > a {
+    display: table-cell;
+    width: 218px;
+    height: 108px;
+    text-align: center;
+    vertical-align: middle;
+    background: #fff;
+    position: absolute;
+    left: 50%;
+    top: 0;
+    margin-left: -109px;
+    -webkit-transition: all .4s ease-in-out;
+    -moz-transition: all .4s ease-in-out;
+    -ms-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out
+}
+
+.ty-about-section.download > h2 {
+    margin-bottom: 54px
+}
+
+.ty-about-report-slide > a > img {
+    width: 160px;
+    left: 50%;
+    top: 50%;
+    margin-left: -80px;
+    position: absolute;
+    -webkit-transform: translate(0, -50%);
+    -moz-transform: translate(0, -50%);
+    -ms-transform: translate(0, -50%);
+    -o-transform: translate(0, -50%);
+    transform: translate(0, -50%)
+}
+
+.ty-about-report-slide h3 {
+    text-align: center;
+    font-size: 16px;
+    font-weight: 700;
+    margin: 128px auto 20px;
+    color: #444;
+    width: 320px;
+    overflow: hidden;
+    height: 16px
+}
+
+.ty-about-report-slide p {
+    font-size: 14px;
+    padding: 0 10px;
+    line-height: 1.4;
+    color: #777;
+    height: 56px;
+    width: 328px;
+    overflow: hidden
+}
+
+.ty-about-report-slide.ty-active {
+    width: 348px;
+    height: 238px;
+    margin-top: 0;
+    -webkit-box-shadow: 0 0 10px #aaa;
+    -moz-box-shadow: 0 0 10px #aaa;
+    box-shadow: 0 0 10px #aaa
+}
+
+.ty-about-report-nav-next, .ty-about-report-nav-prev {
+    position: absolute;
+    padding: 0 10px;
+    width: 40px;
+    height: 230px;
+    background-color: #fff;
+    left: 0;
+    top: 0;
+    background-image: url(../images/ic_arrow_left.png);
+    background-size: 40px auto;
+    background-position: center center;
+    background-repeat: no-repeat;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -ms-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out
+}
+
+a.ty-about-report-nav-next {
+    right: 0;
+    left: auto;
+    background-image: url(../images/ic_arrow_right.png)
+}
+
+.ty-about-report-nav-next:hover, .ty-about-report-nav-prev:hover {
+    background-color: #f9f9f9
+}
+/*----------------------------------------*/
+
+.ty-about-section.contact {
+    height: 550px;
+    border-bottom: 1px solid #eee;
+    background: url(../images/ic_about_contact.png) center/80% no-repeat
+}
+
+.ty-about-section.download {
+    height: 566px;
+    border-bottom: 2px solid #00B4FF
+}
+.ty-about-share-detail-left {
+    float: left;
+    width: 160px;
+    text-align: center
+}
+
+.ty-about-share-detail-right {
+    padding-left: 200px;
+    position: relative;
+    height: 100%
+}
+
+.ty-about-share-detail-right h4 {
+    font-size: 22px;
+    color: #777;
+    font-weight: 400;
+    height: 60px;
+    line-height: 60px;
+    margin-bottom: 5px
+}
+
+.ty-about-share-detail-right p {
+    line-height: 1.7
+}
+
+.ty-about-share-weibo-right:after, .ty-about-share-weibo-right:before {
+    position: absolute;
+    content: '';
+    height: 16px;
+    width: 1px;
+    background: #777;
+    left: 265px;
+    top: 83px
+}
+
+.ty-about-share-wechat-left img {
+    width: 140px;
+    margin: -20px 0 0 20px
+}
+
+.ty-about-share-weibo-right:after {
+    left: 375px
+}
+
+.ty-about-share-detail-mail {
+    height: 110px;
+    line-height: 110px;
+    text-align: center;
+    display: block;
+    font-size: 30px;
+    position: relative
+}
+
+.ty-about-share-detail-mail img {
+    width: 30px;
+    position: relative;
+    top: 3px;
+    left: 1px
+}
+
+.ty-about-share-detail-mail i {
+    font-size: 40px;
+    position: relative;
+    top: 10px
+}
+
+.ty-about-share-detail-mail:active, .ty-about-share-detail-mail:link, .ty-about-share-detail-mail:visited {
+    color: #999
+}
+
+.ty-about-share-detail-mail-line {
+    position: absolute;
+    width: 0;
+    height: 2px;
+    background: #ddd;
+    left: 50%;
+    top: 85px;
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -ms-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out
+}
+
+.ty-about-download-btn, .ty-about-download-btn > a {
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    -ms-transition: all .3s;
+    -o-transition: all .3s
+}
+
+.ty-about-share-detail-mail:hover .ty-about-share-detail-mail-line {
+    width: 308px;
+    margin-left: -154px
+}
+
+.ty-about-section.download > p {
+    color: #999;
+    text-align: center;
+    font-size: 14px
+}
+
+.ty-about-download-container {
+    width: 700px;
+    margin: 20px auto;
+    position: relative;
+    overflow: hidden;
+    height: 450px
+}
+
+.ty-about-download-left {
+    width: 400px;
+    position: absolute;
+    float: left;
+    left: 0;
+    top: 0
+}
+
+.ty-about-download-iphone {
+    width: 250px;
+    position: absolute;
+    z-index: -1
+}
+
+.ty-about-download-android {
+    position: absolute;
+    width: 280px;
+    left: 170px;
+    top: 45px;
+    z-index: -1
+}
+
+.ty-about-download-right {
+    padding-left: 480px
+}
+
+.ty-about-download-btn {
+    width: 160px;
+    height: 50px;
+    margin: 0 0 20px;
+    position: relative;
+    transition: all .3s
+}
+
+.ty-about-download-iphone-btn:hover i, .ty-about-download-iphone-btn:hover span {
+    color: #fff
+}
+
+.ty-about-download-btn > a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    position: relative;
+    transition: all .3s;
+    text-align: center
+}
+
+.ty-about-download-btn > a i {
+    width: 25px;
+    height: 25px;
+    position: relative;
+    display: inline-block;
+    font-size: 25px;
+    top: 3px;
+    color: #999
+}
+
+.ty-about-download-btn > a span {
+    height: 100%;
+    font-size: 18px;
+    line-height: 50px;
+    color: #777;
+    font-weight: 400;
+    position: relative;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    -ms-transition: all .3s;
+    -o-transition: all .3s;
+    transition: all .3s
+}
+
+.ty-about-download-btn > a h4 small {
+    position: absolute;
+    font-size: 12px;
+    top: 16px;
+    left: 55px
+}
+
+.ty-about-download-btn ul {
+    width: 100%;
+    height: 0;
+    overflow: hidden;
+    position: absolute;
+    z-index: 999;
+    background: #fff;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    -webkit-transition: height .4s ease-in-out;
+    -moz-transition: height .4s ease-in-out;
+    -ms-transition: height .4s ease-in-out;
+    -o-transition: height .4s ease-in-out;
+    transition: height .4s ease-in-out
+}
+
+.ty-about-download-btn ul li {
+    width: 100%;
+    height: 50%;
+    list-style: none;
+    text-align: center;
+    line-height: 50px;
+    color: #777;
+    -webkit-transition: background .3s ease-in-out;
+    -moz-transition: background .3s ease-in-out;
+    -ms-transition: background .3s ease-in-out;
+    -o-transition: background .3s ease-in-out;
+    transition: background .3s ease-in-out
+}
+
+.ty-about-download-iphone-btn:hover > a > h4, .ty-nav, .ty-nav .ty-nav-btn-content > a:active, .ty-nav .ty-nav-btn-content > a:link, .ty-nav .ty-nav-btn-content > a:visited {
+    color: #fff
+}
+
+.ty-about-download-btn ul li a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    font-size: 14px
+}
+
+.ty-about-download-btn ul li:hover {
+    background: #f2f2f2
+}
+
+.ty-about-download-iphone-btn:hover > a {
+    background: #00b4ff;
+    border-color: #00b4ff;
+    color: #fff
+}
+
+.ty-about-download-android-btn:hover a {
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    border-bottom-color: #fff
+}
+
+.ty-about-download-android-btn:hover ul {
+    height: 200%;
+    border: 1px solid #ccc;
+    border-top: 0
+}
+
+.ty-about-share-after-1:after, .ty-about-share-after-1:before {
+    margin-left: -250px
+}
+
+.ty-about-share-after-2:after, .ty-about-share-after-2:before {
+    margin-left: -100px
+}
+
+.ty-about-share-after-3:after, .ty-about-share-after-3:before {
+    margin-left: 55px
+}
+
+.ty-about-share-after-4:after, .ty-about-share-after-4:before {
+    margin-left: 205px
+}
+
+.ty-about-team-member-style-0 {
+    left: 50%;
+    top: 54px;
+    -webkit-transform: scale(.6, .6);
+    -moz-transform: scale(.6, .6);
+    -ms-transform: scale(.6, .6);
+    -o-transform: scale(.6, .6);
+    transform: scale(.6, .6)
+}
+
+.ty-about-team-member-style-1 {
+    left: 60%;
+    top: 100px
+}
+
+.ty-about-team-member-style-2 {
+    left: 40%;
+    top: 80px;
+    -webkit-transform: scale(.8, .8);
+    -moz-transform: scale(.8, .8);
+    -ms-transform: scale(.8, .8);
+    -o-transform: scale(.8, .8);
+    transform: scale(.8, .8)
+}
+
+.ty-about-team-member-style-3 {
+    left: 20%;
+    top: 143px;
+    -webkit-transform: scale(.6, .6);
+    -moz-transform: scale(.6, .6);
+    -ms-transform: scale(.6, .6);
+    -o-transform: scale(.6, .6);
+    transform: scale(.6, .6)
+}
+
+.ty-about-team-member-style-6, .ty-about-team-member-style-7 {
+    -webkit-transform: scale(.8, .8);
+    -moz-transform: scale(.8, .8);
+    -ms-transform: scale(.8, .8);
+    -o-transform: scale(.8, .8)
+}
+
+.ty-about-team-member-style-4 {
+    left: 22%;
+    top: 50px
+}
+
+.ty-about-team-member-style-5 {
+    left: 31%;
+    top: 143px
+}
+
+.ty-about-team-member-style-6 {
+    left: 33%;
+    top: 7px;
+    transform: scale(.8, .8)
+}
+
+.ty-about-team-member-style-7 {
+    left: 48%;
+    top: 140px;
+    transform: scale(.8, .8)
+}
+
+.ty-about-team-member-style-8 {
+    left: 65%;
+    top: 0;
+    -webkit-transform: scale(.8, .8);
+    -moz-transform: scale(.8, .8);
+    -ms-transform: scale(.8, .8);
+    -o-transform: scale(.8, .8);
+    transform: scale(.8, .8)
+}
+
+.ty-about-team-member-style-10, .ty-about-team-member-style-12 {
+    -webkit-transform: scale(.6, .6);
+    -moz-transform: scale(.6, .6);
+    -ms-transform: scale(.6, .6);
+    -o-transform: scale(.6, .6)
+}
+
+.ty-about-team-member-style-9 {
+    left: 0;
+    top: 139px
+}
+
+.ty-about-team-member-style-10 {
+    left: 74%;
+    top: 50px;
+    transform: scale(.6, .6)
+}
+
+.ty-about-team-member-style-11 {
+    left: 72%;
+    top: 150px
+}
+
+.ty-about-team-member-style-12 {
+    left: 10%;
+    top: 10px;
+    transform: scale(.6, .6)
+}
+
+.ty-about-team-member-style-13 {
+    left: 90%;
+    top: 20px
+}
+
+.ty-about-team-member-style-14 {
+    left: 11%;
+    top: 84px;
+    -webkit-transform: scale(.6, .6);
+    -moz-transform: scale(.6, .6);
+    -ms-transform: scale(.6, .6);
+    -o-transform: scale(.6, .6);
+    transform: scale(.6, .6)
+}
+
+.ty-about-team-member-style-15 {
+    left: 10px;
+    top: 40px;
+    -webkit-transform: scale(.8, .8);
+    -moz-transform: scale(.8, .8);
+    -ms-transform: scale(.8, .8);
+    -o-transform: scale(.8, .8);
+    transform: scale(.8, .8)
+}
+
+.ty-about-team-member-style-16 {
+    left: 93%;
+    top: 142px;
+    -webkit-transform: scale(.6, .6);
+    -moz-transform: scale(.6, .6);
+    -ms-transform: scale(.6, .6);
+    -o-transform: scale(.6, .6);
+    transform: scale(.6, .6)
+}
+
+.ty-about-team-member-style-17, .ty-about-team-member-style-18 {
+    -webkit-transform: scale(.8, .8);
+    -moz-transform: scale(.8, .8);
+    -ms-transform: scale(.8, .8);
+    -o-transform: scale(.8, .8)
+}
+
+.ty-about-team-member-style-17 {
+    left: 84%;
+    top: 106px;
+    transform: scale(.8, .8)
+}
+
+.ty-about-team-member-style-18 {
+    left: 12%;
+    top: 160px;
+    transform: scale(.8, .8)
+}
+
+.ty-about-team-member-style-19, .ty-about-team-member-style-21 {
+    -webkit-transform: scale(.8, .8);
+    -moz-transform: scale(.8, .8);
+    -ms-transform: scale(.8, .8);
+    -o-transform: scale(.8, .8)
+}
+
+.ty-about-team-member-style-19 {
+    left: 80%;
+    top: -20px;
+    transform: scale(.8, .8)
+}
+
+.ty-about-team-member-style-20 {
+    left: 44%;
+    top: -14px;
+    -webkit-transform: scale(.6, .6);
+    -moz-transform: scale(.6, .6);
+    -ms-transform: scale(.6, .6);
+    -o-transform: scale(.6, .6);
+    transform: scale(.6, .6)
+}
+
+.ty-about-team-member-style-21 {
+    left: 55%;
+    top: -17px;
+    transform: scale(.8, .8)
+}
+
+.ty-about-team-member-style-22, .ty-about-team-member-style-23, .ty-about-team-member-style-24, .ty-about-team-member-style-25 {
+    left: 40%;
+    top: 80px;
+    -webkit-transform: scale(.8, .8);
+    -moz-transform: scale(.8, .8);
+    -ms-transform: scale(.8, .8);
+    -o-transform: scale(.8, .8);
+    transform: scale(.8, .8)
+}
+
+@-webkit-keyframes teamMemberMove0 {
+    0% {
+        margin: -1px 0 0 -1px
+    }
+}
+
+@keyframes teamMemberMove0 {
+    0%, 100% {
+        margin: -10px 0 0 -10px
+    }
+    25% {
+        margin: -10px -10px 0 0
+    }
+    50% {
+        margin: 0 -10px -10px 0
+    }
+    75% {
+        margin: 0 0 -10px -10px
+    }
+}
+
+.ty-about-team-member-move-0 {
+    -webkit-animation: teamMemberShow .4s ease-in-out forwards, teamMemberMove0 4s linear infinite;
+    -o-animation: teamMemberShow .4s ease-in-out forwards, teamMemberMove0 4s linear infinite;
+    animation: teamMemberShow .4s ease-in-out forwards, teamMemberMove0 4s linear infinite
+}
+
+@media (max-width: 420px) {
+    .ty-about-download-left, .ty-about-header .ty-about-login, .ty-about-section.report, .ty-about-share-weibo-right:after, .ty-about-share-weibo-right:before {
+        display: none
+    }
+
+    body, html {
+        font-size: 62.5%
+    }
+
+    .ty-about-body-desc ul {
+        margin-left: 20px
+    }
+
+    .ty-about-section.index h2 {
+        font-size: 3rem;
+        line-height: 1.5;
+        margin-top: -180px;
+        font-weight: 700;
+        padding: 0 20px
+    }
+
+    .ty-about-job-close {
+        top: 20px;
+        right: 20px
+    }
+
+    .ty-about-section.index div.ty-about-body-desc {
+        width: 270px;
+        margin-left: -135px;
+        font-size: 1.4rem;
+        text-align: left;
+        bottom: 50px;
+        top: 60%
+    }
+
+    .ty-about-section.team h2 {
+        padding: 0 10px;
+        font-size: 2.4rem;
+        margin-bottom: 30px;
+        line-height: 1.4;
+        font-weight: 700
+    }
+
+    .ty-about-section.contact > h2, .ty-about-section.download > h2, .ty-about-section.job > h2, .ty-about-section.report > h2 {
+        padding: 60px 10px 0;
+        font-size: 2.4rem;
+        margin-bottom: 30px;
+        line-height: 1.4;
+        font-weight: 700
+    }
+
+    .ty-about-team-desc p {
+        font-size: 1.3rem
+    }
+
+    .ty-about-section.job {
+        height: 800px
+    }
+
+    .ty-about-job-detail-container {
+        padding: 0 25px
+    }
+
+    .ty-about-job-detail-container p {
+        font-size: 1.2rem
+    }
+
+    .ty-about-job {
+        width: 44%;
+        margin: 3%
+    }
+
+    .ty-about-job-responsibilities {
+        font-size: 1.3rem
+    }
+
+    .ty-about-share-container {
+        width: auto
+    }
+
+    .ty-about-share-title {
+        height: 80px;
+        padding: 0 30px
+    }
+
+    .ty-about-share-title .ty-about-col-4 {
+        background-size: 50px 50px
+    }
+
+    .ty-about-section.team {
+        height: 900px
+    }
+
+    .ty-about-section.contact, .ty-about-team-container {
+        height: 480px
+    }
+
+    .ty-about-team-member:hover {
+        left: 50%;
+        margin-left: -115px
+    }
+
+    .ty-about-share-content {
+        width: 300px
+    }
+
+    .ty-about-share-detail-left {
+        width: 80px;
+        margin-top: 20px
+    }
+
+    .ty-about-share-detail-left img {
+        width: 80px;
+        height: 80px
+    }
+
+    .ty-about-share-wechat-left img {
+        height: 90px;
+        margin: -10px 0 0
+    }
+
+    .ty-about-share-detail-right {
+        padding-left: 100px;
+        width: 180px
+    }
+
+    .ty-about-share-detail-mail {
+        font-size: 2.4rem
+    }
+
+    .ty-about-share-detail-mail i {
+        font-size: 36px;
+        position: relative;
+        top: 9px
+    }
+
+    .ty-about-share-detail-right h4 {
+        font-size: 1.8rem;
+        line-height: 1.4;
+        width: 170px;
+        height: auto;
+        margin-top: 20px
+    }
+
+    .ty-about-share-content-detail > p {
+        font-size: 1.3rem;
+        margin-top: 10px
+    }
+
+    .ty-about-share-content-detail > p:first-letter {
+        font-size: 2.5rem
+    }
+
+    .ty-about-share-title {
+        margin: 20px 0
+    }
+
+    .ty-about-share-content-detail {
+        width: auto
+    }
+
+    .ty-about-share-after-1:after, .ty-about-share-after-1:before {
+        margin-left: -120px
+    }
+
+    .ty-about-share-after-2:after, .ty-about-share-after-2:before {
+        margin-left: -55px
+    }
+
+    .ty-about-share-after-3:after, .ty-about-share-after-3:before {
+        margin-left: 15px
+    }
+
+    .ty-about-share-after-4:after, .ty-about-share-after-4:before {
+        margin-left: 80px
+    }
+
+    .ty-about-download-container {
+        width: 90%;
+        margin: 0 auto 30px
+    }
+
+    .ty-about-download-right {
+        padding-left: 0;
+        text-align: center;
+        margin-top: 30px
+    }
+
+    .ty-about-download-btn {
+        margin: 0 auto 20px
+    }
+
+    .ty-about-section.download > p {
+        padding: 0 30px;
+        font-size: 1.3rem;
+        line-height: 1.3
+    }
+
+    .ty-about-section.download {
+        height: 450px
+    }
+
+    .footer-content, .footer-copyright, .footer-link {
+        width: auto
+    }
+
+    .footer-content-col {
+        width: 80%;
+        margin: 20px auto;
+        float: none
+    }
+
+    .footer-copyright {
+        line-height: 1.4;
+        padding: 0 30px
+    }
+
+    .ty-about-team-member-style-1 {
+        left: 60%;
+        top: 130px
+    }
+
+    .ty-about-team-member-style-2 {
+        left: 35%;
+        top: 120px
+    }
+
+    .ty-about-team-member-style-3 {
+        left: 18%;
+        top: 164px
+    }
+
+    .ty-about-team-member-style-4 {
+        left: 5%;
+        top: 13px
+    }
+
+    .ty-about-team-member-style-5 {
+        left: 51%;
+        top: 238px
+    }
+
+    .ty-about-team-member-style-7 {
+        left: 7%;
+        top: 235px
+    }
+
+    .ty-about-team-member-style-9 {
+        left: 3%;
+        top: 99px
+    }
+
+    .ty-about-team-member-style-10 {
+        left: 74%;
+        top: 65px
+    }
+
+    .ty-about-team-member-style-11 {
+        left: 26%;
+        top: 300px
+    }
+
+    .ty-about-team-member-style-12 {
+        left: 70%;
+        top: 290px
+    }
+
+    .ty-about-team-member-style-13 {
+        left: 2%;
+        top: 370px
+    }
+
+    .ty-about-team-member-style-14 {
+        left: 30%;
+        top: 396px
+    }
+
+    .ty-about-team-member-style-15 {
+        left: 60%;
+        top: 380px
+    }
+
+    .ty-about-team-member-style-16 {
+        left: 73%;
+        top: 193px
+    }
+}
+
+.ty-nav {
+    background-color: transparent;
+    box-shadow: none;
+    -webkit-transition: background .5s;
+    -moz-transition: background .5s;
+    -ms-transition: background .5s;
+    -o-transition: background .5s;
+    transition: background .5s
+}
+
+.ty-nav .ty-nav-btn-content .ty-nav-user {
+    border-bottom-width: 0
+}
+
+.ty-nav .ty-nav-btn-content > a:hover {
+    color: #00B4FF
+}
+
+.ty-nav-msg .ty-icon-arrow, .ty-nav-search {
+    color: #fff
+}
+
+.ty-nav-ghost.ty-nav {
+    background-color: #fff;
+    box-shadow: 0 0 2px 0 rgba(0, 0, 0, .5)
+}
+
+.ty-nav-ghost .ty-nav-search {
+    color: #00B4FF
+}
+
+.ty-nav .ty-nav-btn-content > a, .ty-nav .ty-nav-btn-content > div {
+    border-bottom-color: transparent
+}
+
+#ty_nav_msg, #ty_nav_search {
+    display: none
+}
+
+.ty-about-section.index div.ty-about-index-video {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    z-index: -1
+}
+
+.ty-about-index-video video {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -960px;
+    margin-top: -540px
+}
+
+.ty-about-index-video:after {
+    position: absolute;
+    width: 100%;
+    content: '';
+    height: 100%;
+    background: #061742;
+    opacity: .3;
+    top: 0;
+    left: 0
+}
